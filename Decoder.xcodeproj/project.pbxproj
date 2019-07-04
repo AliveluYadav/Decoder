@@ -14,6 +14,8 @@
 		D4559E5D208EE6690097A8F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4559E5B208EE6690097A8F5 /* LaunchScreen.storyboard */; };
 		D4559E68208EE6690097A8F5 /* DecoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4559E67208EE6690097A8F5 /* DecoderTests.swift */; };
 		D4559E73208EE6690097A8F5 /* DecoderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4559E72208EE6690097A8F5 /* DecoderUITests.swift */; };
+		D4559E81208EE84F0097A8F5 /* TopFreeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4559E80208EE84F0097A8F5 /* TopFreeVC.swift */; };
+		D4559E83208EE88B0097A8F5 /* allApps.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4559E82208EE88B0097A8F5 /* allApps.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D4559E6E208EE6690097A8F5 /* DecoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4559E72208EE6690097A8F5 /* DecoderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoderUITests.swift; sourceTree = "<group>"; };
 		D4559E74208EE6690097A8F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4559E80208EE84F0097A8F5 /* TopFreeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopFreeVC.swift; sourceTree = "<group>"; };
+		D4559E82208EE88B0097A8F5 /* allApps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allApps.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		D4559E46208EE6690097A8F5 = {
 			isa = PBXGroup;
 			children = (
+				D4559E82208EE88B0097A8F5 /* allApps.swift */,
+				D4559E80208EE84F0097A8F5 /* TopFreeVC.swift */,
 				D4559E51208EE6690097A8F5 /* Decoder */,
 				D4559E66208EE6690097A8F5 /* DecoderTests */,
 				D4559E71208EE6690097A8F5 /* DecoderUITests */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4559E55208EE6690097A8F5 /* ViewController.swift in Sources */,
+				D4559E83208EE88B0097A8F5 /* allApps.swift in Sources */,
 				D4559E53208EE6690097A8F5 /* AppDelegate.swift in Sources */,
+				D4559E81208EE84F0097A8F5 /* TopFreeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
